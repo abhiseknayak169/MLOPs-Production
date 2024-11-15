@@ -1,3 +1,3 @@
-from us_visa.logger import logging
-
-logging.info("Welcome to the US Visa Application")
+from us_visa.pipline.training_pipeline import TrainPipeline
+obj = TrainPipeline()
+obj.run_pipeline()
